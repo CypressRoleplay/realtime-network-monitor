@@ -1,0 +1,49 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller generated EXEs (if run locally)
+*.exe
+
+# Output folders
+/output/
+artifacts/
+packages/
+
+# Secrets or env files (optional, if used)
+.env.local
+.env.secret
+
+# GitHub actions cache
+.github/__pycache__/
+
+# Cypress-specific markers (optional)
+cypress.cache/
