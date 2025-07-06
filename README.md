@@ -19,12 +19,12 @@
 git clone https://github.com/cypress-studios/process-network-monitor.git
 cd process-network-monitor
 pip install -r requirements.txt
-python network_monitor.py
+python realtime_network_monitor.py
 ```
 
 > ⚠️ **Run with admin privileges** for full network visibility:  
 > - On **Windows**: Right-click → “Run as Administrator”  
-> - On **Linux/macOS**: Use `sudo python network_monitor.py`
+> - On **Linux/macOS**: Use `sudo python realtime_network_monitor.py`
 
 ---
 
@@ -99,4 +99,4 @@ MIT License
 ## 🧠 About Cypress Studios
 
 Cypress Studios builds small, powerful open-source tools that empower users.  
-No bloat. No noise. Just precision-crafted software built for control.
+No bloat. No noise. Just precision-crafted software built for user control.
