@@ -1,6 +1,8 @@
 # 🌐 Real-Time Process Network Monitor
 *A sleek, real-time process network connection monitoring tool built by Cypress Studios.*
 
+![Real-Time Network Monitor UI](https://i.imgur.com/DTaIZSh.png)
+
 ---
 
 ## ✨ Features
