@@ -40,7 +40,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-if platform.system() == 'Windows':
+if platform.system() == 'Windows' and sys.stdout:
     import io
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
